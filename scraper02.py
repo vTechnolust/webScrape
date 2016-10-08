@@ -8,14 +8,18 @@ page = mech.open(url)
 html = page.read()
 
 soup = BeautifulSoup(html)
-#print soup.prettify()
-table = soup.find("table", border=1)
+print soup.prettify()
 
-for row in table.findAll('tr')[1:]:
-    col = row.findAll('td')
-    rank = wrTableTimeColumn[0].string
-    artist = wrTableFacilityColumn1].string
-    album = col[2].string
-    cover_link = col[3].img['src']
-    record = (rank, artist, album, cover_link)
-    print "|".join(record)
+file = open("newfile.txt", "w")
+file.write(soup.prettify())
+file.close()
+
+#table = soup.find("table", border=1)
+#
+#for row in table.findAll('Tr')[1:]:
+#    col = row.findAll('td class')
+#    rank = col[0].string
+#    artist = col[1].string
+#    album = col[2].string
+#    record = (rank, artist, album)
+#    print "|".join(record)

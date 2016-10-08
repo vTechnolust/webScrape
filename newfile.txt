@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   Team Details
+  </title>
+  <link type="text/css" rel="stylesheet" href="/SiteData/566/CSS/20150427073119968.css" media="screen" />
+  <link href="SiteData/Styles/PrintStyle.css" rel="stylesheet" type="text/css" media="print" />
+  <link type="text/css" rel="stylesheet" href="/SiteData/Styles/Responsive.css" media="screen" />
+ </head>
+ <body class="activityDetailBody">
+  <form method="post" action="./LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4542&amp;WebReportID=7&amp;GUID=91ee4112-15bc-41a2-a8bd-24b2d3599eee" id="frmTeamDetail">
+   <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+   <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIjNvh2H0/Rnh+DQrQk8+lZF3IMtyniCuTmqql1PXkipMjNXRXXxKEbh9oo2L9miMTR9mS9/NEEyzf+9lV4Y42g" />
+   <div id="ucLeagueScheduleTeamDetail_activityDetailContainer" class="activityDetailContainer">
+    <div class="activityDetailHeader">
+     <div class="printButton textRight" style="margin-top: 5px; margin-right: 5px;">
+      <input type="image" name="ucLeagueScheduleTeamDetail$ctl00" src="Images/print.png" alt="Print Schedule" onclick="javascript:window.print();" />
+     </div>
+    </div>
+    <div class="activityDetailActivityName">
+     Your Mom
+    </div>
+    <div id="ucLeagueScheduleTeamDetail_scheduleSection">
+     <div class="clear activityDetailLabel">
+      Schedule:
+     </div>
+     <div class="clear table-wrapper">
+      <div class="scroll-wrapper">
+       <table cellspacing="0" cellpadding="0" class="clear listTable">
+        <tr class="tableHeaderRow">
+         <td class="tableHeaderColumn">
+          Day
+         </td>
+         <td class="tableHeaderColumn wrTableTimeColumn">
+          Date
+         </td>
+         <td class="tableHeaderColumn wrTableTimeColumn">
+          Start Time
+         </td>
+         <td class="tableHeaderColumn wrTableFacilityColumn">
+          Facility
+         </td>
+         <td class="tableHeaderColumn wrTableVisitorColumn">
+          Visitor
+         </td>
+         <td class="tableHeaderColumn wrTableVisitorPointsColumn">
+          Pts
+         </td>
+         <td class="tableHeaderColumn wrTableHomeColumn">
+          Home
+         </td>
+         <td class="tableHeaderColumn wrTableHomePointsColumn">
+          Pts
+         </td>
+         <td class="tableHeaderColumn wrTableFacilityColumn">
+          Event Type
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr1_0" class="tableRow">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          9/15/2016
+         </td>
+         <td class="tableColumn borderRight">
+          9:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 5(Dome)
+         </td>
+         <td class="tableColumn borderRight">
+          Makeshift Maniacs
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          5
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          3
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr2_1" class="tableRowAltLine">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          9/22/2016
+         </td>
+         <td class="tableColumn borderRight">
+          9:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 6
+         </td>
+         <td class="tableColumn borderRight">
+          Shoulda Had That
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          6
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          4
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr1_2" class="tableRow">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          9/29/2016
+         </td>
+         <td class="tableColumn borderRight">
+          9:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 2
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          1
+         </td>
+         <td class="tableColumn borderRight">
+          Porn-Stash
+         </td>
+         <td class="tableColumn borderRight textCenter">
+          7
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr2_3" class="tableRowAltLine">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          10/13/2016
+         </td>
+         <td class="tableColumn borderRight">
+          10:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 1
+         </td>
+         <td class="tableColumn borderRight">
+          Lawnmowers
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr1_4" class="tableRow">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          10/27/2016
+         </td>
+         <td class="tableColumn borderRight">
+          10:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 6
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Alianza Lima
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr2_5" class="tableRowAltLine">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          11/3/2016
+         </td>
+         <td class="tableColumn borderRight">
+          9:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 2
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Makeshift Maniacs
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr1_6" class="tableRow">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          11/10/2016
+         </td>
+         <td class="tableColumn borderRight">
+          9:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 5(Dome)
+         </td>
+         <td class="tableColumn borderRight">
+          I Don't Know
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+        <tr id="ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr2_7" class="tableRowAltLine">
+         <td class="tableColumn borderRight">
+          Thu
+         </td>
+         <td class="tableColumn borderRight">
+          11/10/2016
+         </td>
+         <td class="tableColumn borderRight">
+          11:00 PM
+         </td>
+         <td class="tableColumn borderRight">
+          North Field 2
+         </td>
+         <td class="tableColumn borderRight">
+          Shoulda Had That
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Your Mom
+         </td>
+         <td class="tableColumn borderRight textCenter">
+         </td>
+         <td class="tableColumn borderRight">
+          Adult League
+         </td>
+        </tr>
+       </table>
+      </div>
+     </div>
+    </div>
+    <div class="clear activityDetailFooter">
+    </div>
+   </div>
+  </form>
+ </body>
+</html>

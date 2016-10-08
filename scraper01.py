@@ -3,6 +3,8 @@ from urllib2 import urlopen
 
 BASE_URL = "http://wwisnorthsmithfield.maxgalaxy.net/LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4542&WebReportID=7&GUID=91ee4112-15bc-41a2-a8bd-24b2d3599eee"
 
+print soup.prettify()
+
 def get_category_links(section_url):
     html = urlopen(section_url).read()
     soup = BeautifulSoup(html, "lxml")
