@@ -1,0 +1,58 @@
+          Sun
+          10/2/2016
+          9:00 PM
+          North Field 5(Dome)
+          Myles Away
+          7
+          Oddballs
+--
+          Sun
+          10/2/2016
+          10:00 PM
+          North Field 5(Dome)
+          Red Mist
+          2
+          Myles Away
+--
+          Sun
+          10/9/2016
+          10:00 PM
+          North Field 1
+          Myles Away
+          8
+          Jacked Chester United
+--
+          Sun
+          10/16/2016
+          7:00 PM
+          North Field 6
+          Saucy Dough
+          Myles Away
+--
+          Sun
+          10/16/2016
+          10:00 PM
+          North Field 3
+          Myles Away
+          Oddballs
+--
+          Sun
+          10/23/2016
+          9:00 PM
+          North Field 1
+          Send Train
+          Myles Away
+--
+          Sun
+          10/30/2016
+          8:00 PM
+          North Field 5(Dome)
+          Red Mist
+          Myles Away
+--
+          Sun
+          11/6/2016
+          11:00 PM
+          North Field 6
+          Myles Away
+          Oddballs

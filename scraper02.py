@@ -3,14 +3,14 @@ from mechanize import Browser
 from BeautifulSoup import BeautifulSoup
 
 mech = Browser()
-url = "http://wwisnorthsmithfield.maxgalaxy.net/LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4542&WebReportID=7&GUID=91ee4112-15bc-41a2-a8bd-24b2d3599eee"
+url = "http://wwisnorthsmithfield.maxgalaxy.net/LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4647&WebReportID=7"
 page = mech.open(url)
 html = page.read()
 
 soup = BeautifulSoup(html)
 print soup.prettify()
 
-file = open("newfile.txt", "w")
+file = open("sunday.txt", "w")
 file.write(soup.prettify())
 file.close()
 
@@ -23,3 +23,6 @@ file.close()
 #    album = col[2].string
 #    record = (rank, artist, album)
 #    print "|".join(record)
+
+# grep notes
+#grep -A 20 ucLeagueScheduleTeamDetail_reptEventScheduleList_Tr sunday.txt | grep -v "<" >> sundaySlim.txt
