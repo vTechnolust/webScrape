@@ -1,13 +1,35 @@
+import requests
 from bs4 import BeautifulSoup
-from urllib2 import urlopen
+import encodings, os
 
-BASE_URL = "http://wwisnorthsmithfield.maxgalaxy.net/LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4542&WebReportID=7&GUID=91ee4112-15bc-41a2-a8bd-24b2d3599eee"
+url = "http://wwisnorthsmithfield.maxgalaxy.net/LeagueScheduleTeamDetail.aspx?TeamRegistrationID=4542&WebReportID=7&GUID=91ee4112-15bc-41a2-a8bd-24b2d3599eee"
+r = requests.get(url)
 
-print soup.prettify()
+soup = BeautifulSoup(r.content, "lxml")
 
-def get_category_links(section_url):
-    html = urlopen(section_url).read()
-    soup = BeautifulSoup(html, "lxml")
-    boccat = soup.find("dl", "boccat")
-    category_links = [BASE_URL + dd.a["href"] for dd in boccat.findAll("dd")]
-    return category_links
+#for link in soup.findAll("tr"):
+#    print link.get("id")
+
+g_data = soup.find_all("td",{"class": "tableColumn"})
+
+myList = []
+
+for item in g_data:
+    myList.append(item.text.replace('\n','').replace(' ','').replace('\r',''))
+#
+#while 'Thu' in myList:
+#    myList.remove('Thu')
+#
+#while 'AdultLeague' in myList:
+#    myList.remove('AdultLeague')
+#
+#while '' in myList:
+#    myList.remove('')
+#
+listLength = len(myList)
+
+#for x in range(0, 8):
+for index in range(len(myList)):
+    print 'Current Record :', myList[index]
+
+#print ' \n'.join(myList)
